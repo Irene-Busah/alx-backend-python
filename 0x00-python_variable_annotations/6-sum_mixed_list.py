@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""The function return the sum of list containing integers and floating numbers"""
+"""This module contains modules to perform sum of lists"""
 from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
-    """accepts a list mixed with integers and floating numbers"""
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """perform addition of a mixed list"""
     return sum(mxd_lst)
